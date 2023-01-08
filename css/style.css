@@ -1,0 +1,155 @@
+/* Global */
+:root {
+    --main-text-color: #2E2F42;
+    --second-text-color: #434455;
+    --main-bg-color: #FFFFFF;
+    --second-bg-color: #F4F4FD;
+    --accent-color: #4D5AE5;
+    --footer-text: #E7E9FC;
+  }
+.body {
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    font-family: "Roboto", sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.logo {
+    color: var(--main-text-color);
+
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.logo-color {
+    color: var(--accent-color);
+}
+.nav-list .link {
+    color: var(--main-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
+}
+.mailto, .tel {
+    color: var(--second-text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.mailto:hover, .mailto:focus,
+.tel:hover, .tel:focus {
+color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+    /*background-image: ;*/
+    background-color: var(--main-text-color);
+}
+.hero-title {
+    color: var(--main-bg-color);
+
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-bg-color); 
+    background-color: var(--accent-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+}
+
+/* PRIVILEGIOS */
+.privilegios-item .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+.privilegios-item .text {
+    color: #434455;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* SKILLS */
+.skills-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* TEAM */
+.team {
+    background-color: var(--second-bg-color);
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-list .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-list .skill {
+    color: var(--main-text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--main-text-color);
+}
+.footer .logo {
+    color: var(--second-bg-color);
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.footer .logo-color {
+    color: var(--accent-color);
+}
+.footer .text {
+    color: var(--footer-text);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
